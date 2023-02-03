@@ -1,0 +1,3833 @@
+{
+  "data": {
+    "groups": [
+      {
+        "id": "16",
+        "name": "Ergänzungen",
+        "minima": 0,
+        "parent": {
+          "id": "1"
+        },
+        "modules": [
+		  {
+            "id": "6008035",
+            "name": "Programmieren in C++",
+            "code": "prcpp",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007770"
+              }
+            ]
+          },
+          {
+            "id": "9030149",
+            "name": "Concurrent Programming",
+            "code": "conpr",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "6007770"
+              }
+            ]
+          },
+          {
+            "id": "6007818",
+            "name": "Compilerbau",
+            "code": "cpib",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007991"
+              },
+              {
+                "id": "9118396"
+              }
+            ]
+          },
+          {
+            "id": "9114929",
+            "name": "Functional Programming",
+            "code": "fprog",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "9241968"
+              }
+            ]
+          },
+		  {
+            "id": "6007822",
+            "name": "Computer-Netzwerke",
+            "code": "cpnet",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "6007841"
+              }
+            ]
+          },
+          {
+            "id": "9226201",
+            "name": "Cyber Sicherheit",
+            "code": "cysL",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007841"
+              },
+              {
+                "id": "6007996"
+              },
+              {
+                "id": "6007942"
+              }
+            ]
+          },
+          {
+            "id": "9041289",
+            "name": "Public Cloud Services",
+            "code": "pcls",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "9263351"
+              },
+              {
+                "id": "6007841"
+              }
+            ]
+          },
+          {
+            "id": "9030169",
+            "name": "ITSM Frameworks & Standards",
+            "code": "itfs",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6007942",
+            "name": "Netzwerksicherheit",
+            "code": "netsi",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "6007841"
+              },
+              {
+                "id": "9118565"
+              }
+            ]
+          },
+          {
+            "id": "6008113",
+            "name": "Workshop ICT System Management",
+            "code": "wosm",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "9030169"
+              },
+              {
+                "id": "6007822"
+              },
+              {
+                "id": "6007942"
+              }
+            ]
+          },
+          {
+            "id": "9066636",
+            "name": "Application Performance Management",
+            "code": "apm",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007996"
+              },
+              {
+                "id": "6007770"
+              },
+              {
+                "id": "6007851"
+              }
+            ]
+          },
+          {
+            "id": "6007794",
+            "name": "Applikationssicherheit",
+            "code": "apsi",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "9202725"
+              },
+              {
+                "id": "6008081"
+              },
+              {
+                "id": "9118565"
+              },
+              {
+                "id": "6008097"
+              }
+            ]
+          },
+          {
+            "id": "9157890",
+            "name": "Distributed Data Management",
+            "code": "ddm",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "6007764"
+              }
+            ]
+          },
+          {
+            "id": "6007875",
+            "name": "Enterprise Applikationsframeworks",
+            "code": "eaf",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "6007991"
+              },
+              {
+                "id": "9114931"
+              },
+              {
+                "id": "6007851"
+              }
+            ]
+          },
+          {
+            "id": "6008097",
+            "name": "Web Frameworks",
+            "code": "webfr",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "6007851"
+              },
+              {
+                "id": "9114931"
+              }
+            ]
+          },
+          {
+            "id": "9321025",
+            "name": "Workshop Web",
+            "code": "woweb",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007875"
+              },
+              {
+                "id": "6008097"
+              },
+              {
+                "id": "6007794"
+              }
+            ]
+          },
+          {
+            "id": "9215171",
+            "name": "Natural Language Processing and Probability",
+            "code": "nlp",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007991"
+              },
+              {
+                "id": "9118396"
+              },
+              {
+                "id": "9118392"
+              }
+            ]
+          },
+          {
+            "id": "9018821",
+            "name": "Informations-Generierung & -Speicherung",
+            "code": "igs",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "6007888"
+              },
+              {
+                "id": "6007764"
+              },
+              {
+                "id": "6007991"
+              },
+              {
+                "id": "6007770"
+              },
+              {
+                "id": "9226191"
+              }
+            ]
+          },
+          {
+            "id": "9226191",
+            "name": "Machine Learning",
+            "code": "ml",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "9267273"
+              },
+              {
+                "id": "9118562"
+              },
+              {
+                "id": "9118389"
+              }
+            ]
+          },
+          {
+            "id": "9321022",
+            "name": "Workshop Data Science",
+            "code": "wods",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9018798",
+            "name": "Bildverarbeitung",
+            "code": "bverI",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "9115233"
+              },
+              {
+                "id": "9118562"
+              },
+              {
+                "id": "6007769"
+              }
+            ]
+          },
+          {
+            "id": "9018818",
+            "name": "Effiziente Algorithmen",
+            "code": "efalg",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007991"
+              },
+              {
+                "id": "6007770"
+              },
+              {
+                "id": "9118385"
+              },
+              {
+                "id": "9118392"
+              },
+              {
+                "id": "9118559"
+              }
+            ]
+          },
+          {
+            "id": "9018813",
+            "name": "Computergrafik",
+            "code": "comgr",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "9118392"
+              },
+              {
+                "id": "6007991"
+              },
+              {
+                "id": "9115233"
+              }
+            ]
+          },
+          {
+            "id": "9321028",
+            "name": "Extended Reality",
+            "code": "exr",
+            "credits": 3,
+            "hs": false,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9321031",
+            "name": "Simulation & Agents",
+            "code": "simag",
+            "credits": 3,
+            "hs": false,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9018780",
+            "name": "Workshop IPV",
+            "code": "woipv",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "9018818"
+              },
+              {
+                "id": "9018813"
+              },
+              {
+                "id": "9018798"
+              }
+            ]
+          },
+          {
+            "id": "9321034",
+            "name": "Workshop Spacial Computing",
+            "code": "wosc",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+		  {
+            "id": "6008064",
+            "name": "System-Administration",
+            "code": "sysad",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6007840",
+            "name": "Datennetze 1",
+            "code": "dnet1",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6007996",
+            "name": "Betriebssysteme",
+            "code": "bsys",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6008064"
+              }
+            ]
+          },
+          {
+            "id": "6008081",
+            "name": "System-Programmierung",
+            "code": "syspr",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007996"
+              }
+            ]
+          },
+          {
+            "id": "9263351",
+            "name": "Cloud Computing",
+            "code": "cloud",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "ORAL",
+            "requirements": [
+              {
+                "id": "6007996"
+              },
+              {
+                "id": "6007840"
+              }
+            ]
+          },
+          {
+            "id": "6007841",
+            "name": "Datennetze 2",
+            "code": "dnet2",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007840"
+              }
+            ]
+          },
+          {
+            "id": "9076375",
+            "name": "IT System Management",
+            "code": "itsm",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007996"
+              }
+            ]
+          },
+          {
+            "id": "9202725",
+            "name": "Informationssicherheit",
+            "code": "infsec",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "ORAL",
+            "requirements": []
+          },
+          {
+            "id": "6008307",
+            "name": "Physik fuer Computerspiele ",
+            "code": "pfcs",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007990"
+              },
+              {
+                "id": "9118392"
+              },
+              {
+                "id": "9118385"
+              }
+            ]
+          },
+          {
+            "id": "9228170",
+            "name": "Enterprise Information Systems",
+            "code": "eis",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007888"
+              }
+            ]
+          },
+          {
+            "id": "9041297",
+            "name": "Wireless Technologies",
+            "code": "witec",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "WRITTEN",
+            "requirements": []
+          },
+          {
+            "id": "6007764",
+            "name": "DB-Architektur fuer Fortgeschrittene ",
+            "code": "dbarc",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007888"
+              }
+            ]
+          },
+          {
+            "id": "6007799",
+            "name": "Ton- und Videoverarbeitung ",
+            "code": "tvver",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9100168",
+            "name": "Einführung in C# und das .Net-Framework",
+            "code": "ecnf",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9267273",
+            "name": "Einführung in Data Science mit Python",
+            "code": "dsp",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9329733",
+            "name": "Blockchain",
+            "code": "blch",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007770"
+              },
+              {
+                "id": "9118565"
+              }
+            ]
+          },
+          {
+            "id": "9030270",
+            "name": ".NET Enterprise Application Development",
+            "code": "dnead",
+            "credits": 3,
+            "hs": false,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9280188",
+            "name": "IoT Engineering",
+            "code": "iot",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6007889",
+            "name": "Spiel-Design und -Entwicklung ",
+            "code": "sdent",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9280172",
+            "name": "Functional Program Design",
+            "code": "fprod",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9280160",
+            "name": "Data Wrangling",
+            "code": "dawr",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9115233",
+            "name": "Mathematik für Graphik und Bildverarbeitung",
+            "code": "magb",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9076356",
+            "name": "Qualitäts- und Prozessmanagement",
+            "code": "qpmC",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9167346",
+            "name": "Programming Contest Training 1",
+            "code": "pct1",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9278176",
+            "name": "Programming Contest Training 2",
+            "code": "pct2",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9092783",
+            "name": "E-Solutions",
+            "code": "esol",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9321019",
+            "name": "Statistik für Data Science",
+            "code": "stads",
+            "credits": 3,
+            "hs": false,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9321016",
+            "name": "Cloud Services",
+            "code": "clsv",
+            "credits": 3,
+            "hs": false,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9233777",
+            "name": "Introduction to Perl for Programmers",
+            "code": "perl",
+            "credits": 3,
+            "hs": false,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9092818",
+            "name": "Social Network Analysis",
+            "code": "sna",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "id": "1",
+        "name": "Hauptgruppe",
+        "minima": 111,
+        "parent": null,
+        "modules": [
+		  {
+            "id": "6008035",
+            "name": "Programmieren in C++",
+            "code": "prcpp",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007770"
+              }
+            ]
+          },
+          {
+            "id": "9030149",
+            "name": "Concurrent Programming",
+            "code": "conpr",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "6007770"
+              }
+            ]
+          },
+          {
+            "id": "6007818",
+            "name": "Compilerbau",
+            "code": "cpib",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007991"
+              },
+              {
+                "id": "9118396"
+              }
+            ]
+          },
+          {
+            "id": "9114929",
+            "name": "Functional Programming",
+            "code": "fprog",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "9241968"
+              }
+            ]
+          },
+		  {
+            "id": "6007822",
+            "name": "Computer-Netzwerke",
+            "code": "cpnet",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "6007841"
+              }
+            ]
+          },
+          {
+            "id": "9226201",
+            "name": "Cyber Sicherheit",
+            "code": "cysL",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007841"
+              },
+              {
+                "id": "6007996"
+              },
+              {
+                "id": "6007942"
+              }
+            ]
+          },
+          {
+            "id": "9041289",
+            "name": "Public Cloud Services",
+            "code": "pcls",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "9263351"
+              },
+              {
+                "id": "6007841"
+              }
+            ]
+          },
+          {
+            "id": "9030169",
+            "name": "ITSM Frameworks & Standards",
+            "code": "itfs",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6007942",
+            "name": "Netzwerksicherheit",
+            "code": "netsi",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "6007841"
+              },
+              {
+                "id": "9118565"
+              }
+            ]
+          },
+          {
+            "id": "6008113",
+            "name": "Workshop ICT System Management",
+            "code": "wosm",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "9030169"
+              },
+              {
+                "id": "6007822"
+              },
+              {
+                "id": "6007942"
+              }
+            ]
+          },
+          {
+            "id": "9066636",
+            "name": "Application Performance Management",
+            "code": "apm",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007996"
+              },
+              {
+                "id": "6007770"
+              },
+              {
+                "id": "6007851"
+              }
+            ]
+          },
+          {
+            "id": "6007794",
+            "name": "Applikationssicherheit",
+            "code": "apsi",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "9202725"
+              },
+              {
+                "id": "6008081"
+              },
+              {
+                "id": "9118565"
+              },
+              {
+                "id": "6008097"
+              }
+            ]
+          },
+          {
+            "id": "9157890",
+            "name": "Distributed Data Management",
+            "code": "ddm",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "6007764"
+              }
+            ]
+          },
+          {
+            "id": "6007875",
+            "name": "Enterprise Applikationsframeworks",
+            "code": "eaf",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "6007991"
+              },
+              {
+                "id": "9114931"
+              },
+              {
+                "id": "6007851"
+              }
+            ]
+          },
+          {
+            "id": "6008097",
+            "name": "Web Frameworks",
+            "code": "webfr",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "6007851"
+              },
+              {
+                "id": "9114931"
+              }
+            ]
+          },
+          {
+            "id": "9321025",
+            "name": "Workshop Web",
+            "code": "woweb",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007875"
+              },
+              {
+                "id": "6008097"
+              },
+              {
+                "id": "6007794"
+              }
+            ]
+          },
+          {
+            "id": "9215171",
+            "name": "Natural Language Processing and Probability",
+            "code": "nlp",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007991"
+              },
+              {
+                "id": "9118396"
+              },
+              {
+                "id": "9118392"
+              }
+            ]
+          },
+          {
+            "id": "9018821",
+            "name": "Informations-Generierung & -Speicherung",
+            "code": "igs",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "6007888"
+              },
+              {
+                "id": "6007764"
+              },
+              {
+                "id": "6007991"
+              },
+              {
+                "id": "6007770"
+              },
+              {
+                "id": "9226191"
+              }
+            ]
+          },
+          {
+            "id": "9226191",
+            "name": "Machine Learning",
+            "code": "ml",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "9267273"
+              },
+              {
+                "id": "9118562"
+              },
+              {
+                "id": "9118389"
+              }
+            ]
+          },
+          {
+            "id": "9321022",
+            "name": "Workshop Data Science",
+            "code": "wods",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9018798",
+            "name": "Bildverarbeitung",
+            "code": "bverI",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "9115233"
+              },
+              {
+                "id": "9118562"
+              },
+              {
+                "id": "6007769"
+              }
+            ]
+          },
+          {
+            "id": "9018818",
+            "name": "Effiziente Algorithmen",
+            "code": "efalg",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007991"
+              },
+              {
+                "id": "6007770"
+              },
+              {
+                "id": "9118385"
+              },
+              {
+                "id": "9118392"
+              },
+              {
+                "id": "9118559"
+              }
+            ]
+          },
+          {
+            "id": "9018813",
+            "name": "Computergrafik",
+            "code": "comgr",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "9118392"
+              },
+              {
+                "id": "6007991"
+              },
+              {
+                "id": "9115233"
+              }
+            ]
+          },
+          {
+            "id": "9321028",
+            "name": "Extended Reality",
+            "code": "exr",
+            "credits": 3,
+            "hs": false,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9321031",
+            "name": "Simulation & Agents",
+            "code": "simag",
+            "credits": 3,
+            "hs": false,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9018780",
+            "name": "Workshop IPV",
+            "code": "woipv",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "9018818"
+              },
+              {
+                "id": "9018813"
+              },
+              {
+                "id": "9018798"
+              }
+            ]
+          },
+          {
+            "id": "9321034",
+            "name": "Workshop Spacial Computing",
+            "code": "wosc",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+		  {
+            "id": "6008064",
+            "name": "System-Administration",
+            "code": "sysad",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6007840",
+            "name": "Datennetze 1",
+            "code": "dnet1",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6007996",
+            "name": "Betriebssysteme",
+            "code": "bsys",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6008064"
+              }
+            ]
+          },
+          {
+            "id": "6008081",
+            "name": "System-Programmierung",
+            "code": "syspr",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007996"
+              }
+            ]
+          },
+          {
+            "id": "9263351",
+            "name": "Cloud Computing",
+            "code": "cloud",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "ORAL",
+            "requirements": [
+              {
+                "id": "6007996"
+              },
+              {
+                "id": "6007840"
+              }
+            ]
+          },
+          {
+            "id": "6007841",
+            "name": "Datennetze 2",
+            "code": "dnet2",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007840"
+              }
+            ]
+          },
+          {
+            "id": "9076375",
+            "name": "IT System Management",
+            "code": "itsm",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007996"
+              }
+            ]
+          },
+          {
+            "id": "9202725",
+            "name": "Informationssicherheit",
+            "code": "infsec",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "ORAL",
+            "requirements": []
+          },
+          {
+            "id": "6008307",
+            "name": "Physik fuer Computerspiele ",
+            "code": "pfcs",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007990"
+              },
+              {
+                "id": "9118392"
+              },
+              {
+                "id": "9118385"
+              }
+            ]
+          },
+          {
+            "id": "9228170",
+            "name": "Enterprise Information Systems",
+            "code": "eis",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007888"
+              }
+            ]
+          },
+          {
+            "id": "9041297",
+            "name": "Wireless Technologies",
+            "code": "witec",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "WRITTEN",
+            "requirements": []
+          },
+          {
+            "id": "6007764",
+            "name": "DB-Architektur fuer Fortgeschrittene ",
+            "code": "dbarc",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007888"
+              }
+            ]
+          },
+          {
+            "id": "6007799",
+            "name": "Ton- und Videoverarbeitung ",
+            "code": "tvver",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9100168",
+            "name": "Einführung in C# und das .Net-Framework",
+            "code": "ecnf",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9267273",
+            "name": "Einführung in Data Science mit Python",
+            "code": "dsp",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9329733",
+            "name": "Blockchain",
+            "code": "blch",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007770"
+              },
+              {
+                "id": "9118565"
+              }
+            ]
+          },
+          {
+            "id": "9030270",
+            "name": ".NET Enterprise Application Development",
+            "code": "dnead",
+            "credits": 3,
+            "hs": false,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9280188",
+            "name": "IoT Engineering",
+            "code": "iot",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6007889",
+            "name": "Spiel-Design und -Entwicklung ",
+            "code": "sdent",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9280172",
+            "name": "Functional Program Design",
+            "code": "fprod",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9280160",
+            "name": "Data Wrangling",
+            "code": "dawr",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9115233",
+            "name": "Mathematik für Graphik und Bildverarbeitung",
+            "code": "magb",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9076356",
+            "name": "Qualitäts- und Prozessmanagement",
+            "code": "qpmC",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9167346",
+            "name": "Programming Contest Training 1",
+            "code": "pct1",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9278176",
+            "name": "Programming Contest Training 2",
+            "code": "pct2",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9092783",
+            "name": "E-Solutions",
+            "code": "esol",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9321019",
+            "name": "Statistik für Data Science",
+            "code": "stads",
+            "credits": 3,
+            "hs": false,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9321016",
+            "name": "Cloud Services",
+            "code": "clsv",
+            "credits": 3,
+            "hs": false,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9233777",
+            "name": "Introduction to Perl for Programmers",
+            "code": "perl",
+            "credits": 3,
+            "hs": false,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9092818",
+            "name": "Social Network Analysis",
+            "code": "sna",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+		  {
+            "id": "9200607",
+            "name": "Custom User Interface Elements",
+            "code": "cuie",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+		  {
+            "id": "6007984",
+            "name": "Entwicklung mobiler Applikationen",
+            "code": "emoba",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+		  {
+            "id": "9309249",
+            "name": "Web Clients",
+            "code": "webcl",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "9248673"
+              }
+            ]
+          },
+		  {
+            "id": "9309477",
+            "name": "3D UI & Experience Design",
+            "code": "uied",
+            "credits": 3,
+            "hs": false,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+		  {
+            "id": "9118396",
+            "name": "Mathematische Grundlagen der Informatik",
+            "code": "mgli",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": []
+          },
+          {
+            "id": "9118392",
+            "name": "Lineare Algebra und Geometrie",
+            "code": "lag",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": []
+          },
+          {
+            "id": "9118385",
+            "name": "Einführung in die Analysis",
+            "code": "eana",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "9118396"
+              },
+              {
+                "id": "9118392"
+              }
+            ]
+          },
+          {
+            "id": "9118559",
+            "name": "Mathematik für die Datenkommunikation",
+            "code": "mada",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "9118396"
+              }
+            ]
+          },
+          {
+            "id": "9118389",
+            "name": "Diskrete Stochastik",
+            "code": "dist",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "9118396"
+              },
+              {
+                "id": "9118392"
+              },
+              {
+                "id": "9118385"
+              }
+            ]
+          },
+          {
+            "id": "9118562",
+            "name": "Vertiefung Analysis",
+            "code": "vana",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "9118396"
+              },
+              {
+                "id": "9118392"
+              },
+              {
+                "id": "9118385"
+              }
+            ]
+          },
+          {
+            "id": "9118565",
+            "name": "Kryptologie",
+            "code": "kry",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "9118396"
+              },
+              {
+                "id": "9118559"
+              }
+            ]
+          },
+          {
+            "id": "6008329",
+            "name": "Einführung in die theoretische Informatik",
+            "code": "eti",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+		  {
+            "id": "9046834",
+            "name": "Designtheorie und -prozesse",
+            "code": "dtpC",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+		  {
+            "id": "9046845",
+            "name": "User Interface und Interaction Design",
+            "code": "uidC",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9046834"
+				}
+			]
+          },
+		  {
+            "id": "9116316",
+            "name": "Advanced Experience Design",
+            "code": "adxd",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9046834"
+				},
+				{
+				"id": "9046845"
+				}
+			]
+          },
+		  {
+            "id": "9018825",
+            "name": "Informations-Visualisierung",
+            "code": "ivis",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9046834"
+				},
+				{
+				"id": "9046845"
+				},
+				{
+				"id": "9118392"
+				},
+				{
+				"id": "6007991"
+				}
+			]
+          },
+		  {
+            "id": "9018824",
+            "name": "Media Computing",
+            "code": "meco",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9046834"
+				},
+				{
+				"id": "9046845"
+				},
+				{
+				"id": "6007991"
+				}
+			]
+          },
+		  {
+            "id": "9120611",
+            "name": "Software Engineering Grundlagen",
+            "code": "sweGL",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "WRITTEN",
+            "requirements": []
+          },
+          {
+            "id": "9120610",
+            "name": "Requirements Engineering",
+            "code": "req",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9288368",
+            "name": "Software-Construction",
+            "code": "swc",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007990"
+              }
+            ]
+          },
+		  {
+            "id": "9248673",
+            "name": "Web Programming",
+            "code": "webpr",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007991"
+              },
+              {
+                "id": "6007769"
+              },
+              {
+                "id": "9076370"
+              }
+            ]
+          },
+		  {
+            "id": "9076370",
+            "name": "Web-Engineering",
+            "code": "webeC",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": []
+          },
+          {
+            "id": "9114931",
+            "name": "Design Patterns",
+            "code": "depa",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "6007991"
+              }
+            ]
+          },
+          {
+            "id": "9067037",
+            "name": "Software Entwicklungs Prozesse",
+            "code": "sepC",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "9120610"
+              },
+              {
+                "id": "9155705"
+              }
+            ]
+          },
+		  {
+            "id": "9114913",
+            "name": "Software Testing and Quality Management",
+            "code": "stqm",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "WRITTEN",
+            "requirements": []
+          },
+		  {
+            "id": "9046835",
+            "name": "Workshop Design Thinking",
+            "code": "ws1C",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+		  {
+            "id": "9046836",
+            "name": "Workshop Programming",
+            "code": "ws2C",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "6007990"
+				}
+			]
+          },
+		  {
+            "id": "9046837",
+            "name": "Workshop Web Design",
+            "code": "ws3C",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9046845"
+				},
+				{
+				"id": "6007990"
+				}
+			]
+          },
+		  {
+            "id": "9046838",
+            "name": "Workshop Desktop Experience",
+            "code": "ws4C",
+            "credits": 2,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9046845"
+				},
+				{
+				"id": "6007991"
+				},
+				{
+				"id": "9200607"
+				}
+			]
+          },
+		  {
+            "id": "9046839",
+            "name": "Workshop Experimental Design",
+            "code": "wsed",
+            "credits": 2,
+            "hs": false,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9018824"
+				}
+			]
+          },
+		  {
+            "id": "9046830",
+            "name": "Workshop Web Experience",
+            "code": "wexC",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9046845"
+				},
+				{
+				"id": "9046834"
+				},
+				{
+				"id": "9248673"
+				},
+				{
+				"id": "9309249"
+				}
+			]
+          },
+		  {
+            "id": "9046831",
+            "name": "Workshop Mobile Experience",
+            "code": "ws6C",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9046845"
+				},
+				{
+				"id": "6007984"
+				}
+			]
+          },
+		  {
+            "id": "9098396",
+            "name": "Projektmanagement",
+            "code": "pmC",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+		  {
+            "id": "9092809",
+            "name": "BWL Startup",
+            "code": "bwlC",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9155620"
+				},
+				{
+				"id": "9155705"
+				}
+			]
+          },
+		  {
+            "id": "9092807",
+            "name": "Current Management Topics by MOOCs",
+            "code": "cmm",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+		  {
+            "id": "9098395",
+            "name": "Personal und Führung",
+            "code": "pefu",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9092809"
+				},
+				{
+				"id": "9155620"
+				},
+				{
+				"id": "9155705"
+				}
+			]
+          },
+		  {
+            "id": "9092808",
+            "name": "Marketing und Produkt-Management",
+            "code": "mpm",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9092809"
+				},
+				{
+				"id": "9120610"
+				}
+			]
+          },
+		  {
+            "id": "9241968",
+            "name": "Einführung in die Programmierung",
+            "code": "eipr",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+		  {
+            "id": "6007990",
+            "name": "Objektorientierte Programmierung 1",
+            "code": "oopI1",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "9241968"
+              }
+            ]
+          },
+          {
+            "id": "6007991",
+            "name": "Objektorientierte Programmierung 2",
+            "code": "oopI2",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "6007990"
+              }
+            ]
+          },
+          {
+            "id": "6007769",
+            "name": "Algorithmen und Datenstrukturen 1",
+            "code": "algd1",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "6007990"
+              },
+              {
+                "id": "9118396"
+              },
+              {
+                "id": "9118385"
+              }
+            ]
+          },
+          {
+            "id": "6007770",
+            "name": "Algorithmen und Datenstrukturen 2",
+            "code": "algd2",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "6007769"
+              },
+              {
+                "id": "6007991"
+              }
+            ]
+          },
+		  		  {
+            "id": "9241969",
+            "name": "IT-Plattform Grundlagen",
+            "code": "ipg",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+		  {
+            "id": "9241967",
+            "name": "Einführung in Datenbank Systeme",
+            "code": "dbC",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "WRITTEN",
+            "requirements": []
+          },
+		  {
+            "id": "9241967",
+            "name": "Kommunikation in verteilten Anwendungen",
+            "code": "kvanC",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "WRITTEN",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "Projekte",
+        "minima": 42,
+        "parent": {
+          "id": "3"
+        },
+        "modules": [
+          {
+            "id": "9155620",
+            "name": "Projekt 1",
+            "code": "pro1I",
+            "credits": 6,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9155705",
+            "name": "Projekt 2",
+            "code": "pro2I",
+            "credits": 6,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9155710",
+            "name": "Projekt 3",
+            "code": "pro3I",
+            "credits": 6,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9155714",
+            "name": "Projekt 4",
+            "code": "pro4I",
+            "credits": 6,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6017825",
+            "name": "Projekt 5",
+            "code": "pro5I",
+            "credits": 6,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007996"
+              },
+              {
+                "id": "6007840"
+              }
+            ]
+          },
+          {
+            "id": "9004590",
+            "name": "Projekt 6 (Thesis)",
+            "code": "pro6I",
+            "credits": 12,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          }
+        ]
+      },
+	        {
+        "id": "4",
+        "name": "Informatik Grundlagen",
+        "minima": 18,
+        "parent": {
+          "id": "1"
+        },
+        "modules": [
+		  {
+            "id": "9241968",
+            "name": "Einführung in die Programmierung",
+            "code": "eipr",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+		  {
+            "id": "6007990",
+            "name": "Objektorientierte Programmierung 1",
+            "code": "oopI1",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "9241968"
+              }
+            ]
+          },
+          {
+            "id": "6007991",
+            "name": "Objektorientierte Programmierung 2",
+            "code": "oopI2",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "6007990"
+              }
+            ]
+          },
+          {
+            "id": "6007769",
+            "name": "Algorithmen und Datenstrukturen 1",
+            "code": "algd1",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "6007990"
+              },
+              {
+                "id": "9118396"
+              },
+              {
+                "id": "9118385"
+              }
+            ]
+          },
+          {
+            "id": "6007770",
+            "name": "Algorithmen und Datenstrukturen 2",
+            "code": "algd2",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "6007769"
+              },
+              {
+                "id": "6007991"
+              }
+            ]
+          },
+		  		  {
+            "id": "9241969",
+            "name": "IT-Plattform Grundlagen",
+            "code": "ipg",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+		  {
+            "id": "9241967",
+            "name": "Einführung in Datenbank Systeme",
+            "code": "dbC",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "WRITTEN",
+            "requirements": []
+          },
+		  {
+            "id": "9241967",
+            "name": "Kommunikation in verteilten Anwendungen",
+            "code": "kvanC",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "WRITTEN",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "name": "Management",
+        "minima": 9,
+        "parent":  {
+          "id": "1"
+        },
+        "modules": [
+		  {
+            "id": "9098396",
+            "name": "Projektmanagement",
+            "code": "pmC",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+		  {
+            "id": "9092809",
+            "name": "BWL Startup",
+            "code": "bwlC",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9155620"
+				},
+				{
+				"id": "9155705"
+				}
+			]
+          },
+		  {
+            "id": "9092807",
+            "name": "Current Management Topics by MOOCs",
+            "code": "cmm",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+		  {
+            "id": "9098395",
+            "name": "Personal und Führung",
+            "code": "pefu",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9092809"
+				},
+				{
+				"id": "9155620"
+				},
+				{
+				"id": "9155705"
+				}
+			]
+          },
+		  {
+            "id": "9092808",
+            "name": "Marketing und Produkt-Management",
+            "code": "mpm",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9092809"
+				},
+				{
+				"id": "9120610"
+				}
+			]
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "name": "Kommunikation",
+        "minima": 4,
+        "parent": {
+          "id": "10"
+        },
+        "modules": [
+          {
+            "id": "9072939",
+            "name": "Argumentation und Rhetorik",
+            "code": "agrh",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6029971",
+            "name": "Deutsch als Fremdsprache 1",
+            "code": "df1",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6029973",
+            "name": "Deutsch als Fremdsprache 2",
+            "code": "df2",
+            "credits": 2,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9072941",
+            "name": "Schreibpraxis",
+            "code": "sprx",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "id": "7",
+        "name": "Englisch",
+        "minima": 8,
+        "parent": {
+          "id": "10"
+        },
+        "modules": [
+          {
+            "id": "9330583",
+            "name": "Cambridge Advanced Course (Elective)",
+            "code": "ecae",
+            "credits": 4,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9261931",
+            "name": "Developing English 1 (Basic)",
+            "code": "den1",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9261942",
+            "name": "Developing English 2 (Basic)",
+            "code": "den2",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6015072",
+            "name": "Acting English (Elective)",
+            "code": "eace",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6015068",
+            "name": "Advanced Conversation (Elective)",
+            "code": "eadc",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6010018",
+            "name": "Cambridge Advanced Course 1 (Elective)",
+            "code": "ecae1",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6017676",
+            "name": "Cambridge Advanced Course 2 (Elective)",
+            "code": "ecae2",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6010016",
+            "name": "Cambridge Proficiency Examination course 1 (Elective)",
+            "code": "ecpe1",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6010017",
+            "name": "Cambridge Proficiency Examination course 2 (Elective)",
+            "code": "ecpe2",
+            "credits": 2,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6015075",
+            "name": "Career Opportunities (Elective)",
+            "code": "ecro",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9051354",
+            "name": "Current Affairs (Elective)",
+            "code": "ecura",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9097813",
+            "name": "Debating (Elective)",
+            "code": "edc",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9262010",
+            "name": "Digital Storytelling for Engineers (Technical Elective)",
+            "code": "edse",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9156484",
+            "name": "Film Studies (Elective)",
+            "code": "efst",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9018998",
+            "name": "Grammar Intensive - Clean up your English (Elective)",
+            "code": "egi",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9286067",
+            "name": "How Stuff Works (Technical Elective)",
+            "code": "ehsw",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9245135",
+            "name": "English for Engineers: Innovation, Design, Procedures, Evaluation (Technical Elective)",
+            "code": "eidpe",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9200490",
+            "name": "Keynote (Elective)",
+            "code": "ekn",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9230481",
+            "name": "Money Matters  (Elective)",
+            "code": "emm",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9142377",
+            "name": "Engineering Writing (Technical Elective)",
+            "code": "engw",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9012700",
+            "name": "English for Optometrists in the Work Setting (Elective)",
+            "code": "eows",
+            "credits": 2,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6037185",
+            "name": "Science Fiction Short Stories 1929 - 1964 (Elective)",
+            "code": "esfss",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9303794",
+            "name": "Write to be Read (Elective)",
+            "code": "ewr",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9261957",
+            "name": "Technical English 1 (Basic)",
+            "code": "ten1",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9261964",
+            "name": "Technical English 2 (Basic)",
+            "code": "ten2",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "name": "GSW",
+        "minima": 6,
+        "parent": {
+          "id": "10"
+        },
+        "modules": [
+          {
+            "id": "9166596",
+            "name": "Aktuelles aus Politik, Gesellschaft und Zeitgeschichte",
+            "code": "apgz",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9006631",
+            "name": "Arbeitspsychologie",
+            "code": "apsy",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9261753",
+            "name": "Die Apple-Religion und andere Wirtschaftskulturen",
+            "code": "arwk",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9018624",
+            "name": "The Crystal Enterprises (Management Game)",
+            "code": "cemB",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6010031",
+            "name": "China - Geburt einer Weltmacht",
+            "code": "chgw",
+            "credits": 2,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9278160",
+            "name": "Energiestrategie 2050",
+            "code": "enstr",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9230462",
+            "name": "Entscheiden",
+            "code": "ents",
+            "credits": 2,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9338026",
+            "name": "Der Einfluss der Technik auf die Musik",
+            "code": "etm",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6010049",
+            "name": "Führung",
+            "code": "fhrg",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9018753",
+            "name": "Big Band, Modulgruppe GSW",
+            "code": "gswbb",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9341453",
+            "name": "Ich, (m)ein Chef?",
+            "code": "imchB",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9012777",
+            "name": "Intercultural Awareness",
+            "code": "incaw",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9046841",
+            "name": "Informatikgeschichte",
+            "code": "infge",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6010051",
+            "name": "Informatikrecht",
+            "code": "infre",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9041307",
+            "name": "Japan - Kultur und Geschichte",
+            "code": "jkg",
+            "credits": 2,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9260128",
+            "name": "Praktisches Konfliktmanagement",
+            "code": "kmgt",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9041303",
+            "name": "Kosmologische Gespräche",
+            "code": "koge",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9198913",
+            "name": "Katastrophen und Risiken in der gesellschaftlichen Wahrnehmung",
+            "code": "krgw",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6028186",
+            "name": "Klimaveränderungen: Ursache, Folgen, Massnahmen",
+            "code": "kufm",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9018613",
+            "name": "Die Macht der bewegten Bilder",
+            "code": "mbb",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9278166",
+            "name": "Medienkompetenz für Social Media und Fachpublikationen",
+            "code": "meko",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6010026",
+            "name": "Männergeschichte(n) - Frauengeschichte(n)",
+            "code": "mgfg",
+            "credits": 2,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9090579",
+            "name": "Naher und Mittlerer Osten (Arabischer Frühling)",
+            "code": "nmo",
+            "credits": 2,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6010044",
+            "name": "Ökologie",
+            "code": "oek",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9260125",
+            "name": "Organisationspsychologie & Diversity",
+            "code": "opd",
+            "credits": 2,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6010053",
+            "name": "Patentrecht",
+            "code": "patr",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6010036",
+            "name": "Psychologie",
+            "code": "psych",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9020130",
+            "name": "Recht und Ethik",
+            "code": "ReEt",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9141966",
+            "name": "Rassismus in Geschichte und Film",
+            "code": "rgf",
+            "credits": 2,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9006640",
+            "name": "Russland - Kultur und Geschichte",
+            "code": "rukg",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9278164",
+            "name": "Sicherheit aus sozialwissenschaftlichen Perspektiven",
+            "code": "sisop",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6010037",
+            "name": "Soziologie",
+            "code": "soz",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9249877",
+            "name": "Spanisch 1",
+            "code": "spa1",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6010032",
+            "name": "Der Staat - Theorie und Praxis",
+            "code": "sttp",
+            "credits": 2,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9301767",
+            "name": "Systemdenken und Simulation",
+            "code": "sys",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9127078",
+            "name": "Technikphilosophie - Philosophie der Technik",
+            "code": "teph",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6010038",
+            "name": "Terrorismus",
+            "code": "ter",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6010045",
+            "name": "Technikethik",
+            "code": "tet",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6010028",
+            "name": "Theater - Lektüre und Besuche",
+            "code": "theat",
+            "credits": 2,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6010046",
+            "name": "Umweltethik",
+            "code": "uwe",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9301818",
+            "name": "Work Culture / Culture as Work in Switzerland and beyond",
+            "code": "wccw",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9299970",
+            "name": "Unternehmenssimulation \"WIWAG\"",
+            "code": "wiwaB",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "6010040",
+            "name": "Weltmacht USA",
+            "code": "wusa",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "name": "Workshop",
+        "minima": 8,
+        "parent": {
+          "id": "1"
+        },
+        "modules": [
+		  {
+            "id": "9046835",
+            "name": "Workshop Design Thinking",
+            "code": "ws1C",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+		  {
+            "id": "9046836",
+            "name": "Workshop Programming",
+            "code": "ws2C",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "6007990"
+				}
+			]
+          },
+		  {
+            "id": "9046837",
+            "name": "Workshop Web Design",
+            "code": "ws3C",
+            "credits": 2,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9046845"
+				},
+				{
+				"id": "6007990"
+				}
+			]
+          },
+		  {
+            "id": "9046838",
+            "name": "Workshop Desktop Experience",
+            "code": "ws4C",
+            "credits": 2,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9046845"
+				},
+				{
+				"id": "6007991"
+				},
+				{
+				"id": "9200607"
+				}
+			]
+          },
+		  {
+            "id": "9046839",
+            "name": "Workshop Experimental Design",
+            "code": "wsed",
+            "credits": 2,
+            "hs": false,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9018824"
+				}
+			]
+          },
+		  {
+            "id": "9046830",
+            "name": "Workshop Web Experience",
+            "code": "wexC",
+            "credits": 2,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9046845"
+				},
+				{
+				"id": "9046834"
+				},
+				{
+				"id": "9248673"
+				},
+				{
+				"id": "9309249"
+				}
+			]
+          },
+		  {
+            "id": "9046831",
+            "name": "Workshop Mobile Experience",
+            "code": "ws6C",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9046845"
+				},
+				{
+				"id": "6007984"
+				}
+			]
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "name": "Software Engineering",
+        "minima": 18,
+        "parent": {
+          "id": "1"
+        },
+        "modules": [
+		  {
+            "id": "9120611",
+            "name": "Software Engineering Grundlagen",
+            "code": "sweGL",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "WRITTEN",
+            "requirements": []
+          },
+          {
+            "id": "9120610",
+            "name": "Requirements Engineering",
+            "code": "req",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+          {
+            "id": "9288368",
+            "name": "Software-Construction",
+            "code": "swc",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007990"
+              }
+            ]
+          },
+		  {
+            "id": "9248673",
+            "name": "Web Programming",
+            "code": "webpr",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "6007991"
+              },
+              {
+                "id": "6007769"
+              },
+              {
+                "id": "9076370"
+              }
+            ]
+          },
+		  {
+            "id": "9076370",
+            "name": "Web-Engineering",
+            "code": "webeC",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": []
+          },
+          {
+            "id": "9114931",
+            "name": "Design Patterns",
+            "code": "depa",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "6007991"
+              }
+            ]
+          },
+          {
+            "id": "9067037",
+            "name": "Software Entwicklungs Prozesse",
+            "code": "sepC",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "9120610"
+              },
+              {
+                "id": "9155705"
+              }
+            ]
+          },
+		  {
+            "id": "9114913",
+            "name": "Software Testing and Quality Management",
+            "code": "stqm",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "WRITTEN",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "id": "13",
+        "name": "Design",
+        "minima": 9,
+        "parent": {
+          "id": "1"
+        },
+        "modules": [
+          {
+            "id": "9046834",
+            "name": "Designtheorie und -prozesse",
+            "code": "dtpC",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+		  {
+            "id": "9046845",
+            "name": "User Interface und Interaction Design",
+            "code": "uidC",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9046834"
+				}
+			]
+          },
+		  {
+            "id": "9116316",
+            "name": "Advanced Experience Design",
+            "code": "adxd",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9046834"
+				},
+				{
+				"id": "9046845"
+				}
+			]
+          },
+		  {
+            "id": "9018825",
+            "name": "Informations-Visualisierung",
+            "code": "ivis",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9046834"
+				},
+				{
+				"id": "9046845"
+				},
+				{
+				"id": "9118392"
+				},
+				{
+				"id": "6007991"
+				}
+			]
+          },
+		  {
+            "id": "9018824",
+            "name": "Media Computing",
+            "code": "meco",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+				{
+				"id": "9046834"
+				},
+				{
+				"id": "9046845"
+				},
+				{
+				"id": "6007991"
+				}
+			]
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "name": "Theoretische Grundlagen und Mathematik",
+        "minima": 18,
+        "parent": {
+          "id": "1"
+        },
+        "modules": [
+          {
+            "id": "9118396",
+            "name": "Mathematische Grundlagen der Informatik",
+            "code": "mgli",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": []
+          },
+          {
+            "id": "9118392",
+            "name": "Lineare Algebra und Geometrie",
+            "code": "lag",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": []
+          },
+          {
+            "id": "9118385",
+            "name": "Einführung in die Analysis",
+            "code": "eana",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "9118396"
+              },
+              {
+                "id": "9118392"
+              }
+            ]
+          },
+          {
+            "id": "9118559",
+            "name": "Mathematik für die Datenkommunikation",
+            "code": "mada",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "9118396"
+              }
+            ]
+          },
+          {
+            "id": "9118389",
+            "name": "Diskrete Stochastik",
+            "code": "dist",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "WRITTEN",
+            "requirements": [
+              {
+                "id": "9118396"
+              },
+              {
+                "id": "9118392"
+              },
+              {
+                "id": "9118385"
+              }
+            ]
+          },
+          {
+            "id": "9118562",
+            "name": "Vertiefung Analysis",
+            "code": "vana",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "9118396"
+              },
+              {
+                "id": "9118392"
+              },
+              {
+                "id": "9118385"
+              }
+            ]
+          },
+          {
+            "id": "9118565",
+            "name": "Kryptologie",
+            "code": "kry",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "9118396"
+              },
+              {
+                "id": "9118559"
+              }
+            ]
+          },
+          {
+            "id": "6008329",
+            "name": "Einführung in die theoretische Informatik",
+            "code": "eti",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          }
+        ]
+      },
+      {
+        "id": "15",
+        "name": "User Interface Engineering",
+        "minima": 6,
+        "parent": {
+          "id": "1"
+        },
+        "modules": [
+		  {
+            "id": "9200607",
+            "name": "Custom User Interface Elements",
+            "code": "cuie",
+            "credits": 3,
+            "hs": false,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": []
+          },
+		  {
+            "id": "6007984",
+            "name": "Entwicklung mobiler Applikationen",
+            "code": "emoba",
+            "credits": 3,
+            "hs": true,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          },
+		  {
+            "id": "9309249",
+            "name": "Web Clients",
+            "code": "webcl",
+            "credits": 3,
+            "hs": true,
+            "fs": true,
+            "msp": "NONE",
+            "requirements": [
+              {
+                "id": "9248673"
+              }
+            ]
+          },
+		  {
+            "id": "9309477",
+            "name": "3D UI & Experience Design",
+            "code": "uied",
+            "credits": 3,
+            "hs": false,
+            "fs": false,
+            "msp": "NONE",
+            "requirements": []
+          }
+        ]
+      }
+    ]
+  }
+}

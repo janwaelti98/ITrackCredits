@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. Styling is done inside compose code, not here-->
+    <style name="ITCTheme" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- Light theme -->
+    <style name="CalenderViewLightTheme" parent="android:ThemeOverlay.Material.Dialog">
+        <item name="android:colorAccent">@color/md_theme_light_primary</item>
+    </style>
+
+    <!-- Dark theme -->
+    <style name="CalenderViewDarkTheme" parent="android:ThemeOverlay.Material.Dialog">
+        <item name="android:colorAccent">@color/md_theme_dark_primary</item>
+        <item name="android:colorForeground">@color/md_theme_dark_onPrimary</item>
+        <item name="android:textColorPrimaryInverse">@color/md_theme_dark_surface</item>
+    </style>
+</resources>
